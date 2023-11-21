@@ -261,7 +261,83 @@ section#content{
 }
 
 /* Large devices */
-@media (min-width: 425px) and (max-width: 768px){ 
+
+@media (max-width: 426px) { 
+    .text__background {
+        left: -5%;
+        bottom: -40px;
+        font-size: 64px;
+    }
+    .Hero__img {
+        position: absolute;
+		top: 50%;        
+		left: 10%;
+        width: 35vh;
+    }
+    nav img {
+        height: 10vh;
+    }
+	.flex__container {
+		height: 55vh;
+	}
+	.flex__item {
+		height: 30vh;
+		padding: 10%;
+	}
+    .flex__item--left{
+        width: 100%;
+    }
+    .flex__item--right {
+        width: 100%;
+    }
+    .flex__content{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .text--big {
+        font-size: 2em;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .text--sub {
+        margin-bottom: 0px; 
+    }
+	section#content {
+		width: 100%;
+		top: 60vh;
+		position: absolute;
+	}
+	.brands_slider_container {
+		padding-left: 5%;
+		padding-right: 5%; 
+	}
+	.brands_slider_container img{
+		max-width: 80%;
+	}
+	.brands {
+		padding-bottom: 20px;
+	}
+	#about{
+	padding: 0em 2em;
+	}
+    #about .years .display-1 {
+        font-size: 5rem;
+    }
+    .fs-3 {
+        font-size: calc(1.1rem + .6vw) !important;
+        text-align: center;
+        margin-top: 5%;
+    }
+    #mobile10 {
+        display: flex !important;
+        flex-direction: column;
+    }
+    #years10{
+        margin-top: 3rem!important;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px){ 
     .flex__content {
 		width: 75%;
 	}
@@ -288,7 +364,6 @@ section#content{
 	}
  }
 
-/* X-Large devices */
 @media (min-width: 1024px) and (max-width: 1440px)  { 
     .flex__item {
         padding-left: 0%;
@@ -308,7 +383,6 @@ section#content{
     }
  }
 
-/* XX-Large devices */
 @media (min-width: 1441px) and (max-width: 1920px) { 
     .flex__item {
         padding-left: 0%;
@@ -328,7 +402,7 @@ section#content{
 		width: 30%;
 	}
 }
-/* XX-Large devices */
+
 @media (min-width: 1921px) and (max-width: 2560px){ 
     .flex__item {
         padding-left: 0%;
