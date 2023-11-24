@@ -38,45 +38,46 @@
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
     <header>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" id="navbar">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <h3>Jennifer Dlugozima</h3>
-                <p>Factional growth marketer</p>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h3>Jennifer Dlugozima</h3>
+                    <p>Factional growth marketer</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#engagements">Engagements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#philosophy">Philosophy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- Navigation -->    
+        </nav>
+        <!-- Navigation -->
     </header>
     <!-- Hero -->
     <div class="slider__navi">
@@ -103,7 +104,8 @@
             <div class="flex__item flex__item--left">
                 <div class="flex__content">
                     <h1 class="text--big">Drive revenue​</h1>
-                    <p class="text--normal">Built and executed upsell, cross-sell, and lead gen programs for B2B Saas companies, helping them reach record earnings​
+                    <p class="text--normal">Built and executed upsell, cross-sell, and lead gen programs for B2B Saas
+                        companies, helping them reach record earnings​
                     </p>
                 </div>
             </div>
@@ -132,12 +134,41 @@
             <div class="flex__item flex__item--right"></div>
             <img class="Hero__img" src="img/project-2.png" />
         </div>
-        
+
     </div>
     <!-- Hero -->
 
+    <!-- About -->
+    <div class="container" id="about">
+        <div class="row align-items-center">
+            <div class="col-lg-4 wow px-4 py-3 fadeInUp shadow-sm border border-light rounded"
+                style="background-color: #F8F9FA;" data-wow-delay="0.5s">
+                <div>
+                    <h4 class="lh-base mb-2">Hello there!</h4>
+                    <p>
+                        My name is <span class="text-primary">Jennifer Dlugozima</span> and I’m a growth marketer who
+                        can help you build pipeline, go-to-market and even get sold.
+                    </p>
+                </div>
+            </div>
+            <div id="years10" class="col-lg-8 wow fadeInUp px-5" data-wow-delay="0.5s">
+                <div id="mobile10" class="d-flex align-items-center justify-content-start mb-5">
+                    <div class="years flex-shrink-0 text-center me-4">
+                        <h1 class="display-1 mb-0">+20</h1>
+                        <h5 class="mb-0 text-end">Years</h5>
+                    </div>
+                    <div>
+                        <h2 class="mb-0 fs-3"><span class="text-primary">In marketing </span><br>in B2B, B2B2C and B2C
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
     <!-- Brands -->
-    <div class="brands wow fadeInUp" data-wow-delay="0.1s">
+    <div class="brands wow fadeInUp" data-wow-delay="0.1s" id="brands">
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col">
@@ -169,37 +200,14 @@
     </div>
     <!-- Brands -->
 
-    <!-- About -->
-    <div class="container" id="about">
-        <div class="row align-items-center">
-            <div class="col-lg-4 wow px-4 py-3 fadeInUp shadow-sm border border-light rounded"
-                style="background-color: #F8F9FA;" data-wow-delay="0.5s">
-                <div>
-                    <h4 class="lh-base mb-2">Hello there!</h4>
-                    <p>
-                        My name is <span class="text-primary">Jennifer Dlugozima</span> and I’m a growth marketer who
-                        can help you build pipeline, go-to-market and even get sold.
-                    </p>
-                </div>
-            </div>
-            <div id="years10" class="col-lg-8 wow fadeInUp px-5" data-wow-delay="0.5s">
-                <div id="mobile10" class="d-flex align-items-center justify-content-start mb-5">
-                    <div class="years flex-shrink-0 text-center me-4">
-                        <h1 class="display-1 mb-0">+20</h1>
-                        <h5 class="mb-0 text-end">Years</h5>
-                    </div>
-                    <div>
-                        <h2 class="mb-0 fs-3"><span class="text-primary">In marketing </span><br>in B2B, B2B2C and B2C
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Divider -->
+    <div class="wrapper" id="divider">
+        <div class="divider div-transparent div-dot"></div>
     </div>
-    <!-- End About -->
+    <!-- Divider -->
 
     <!-- Engagements -->
-    <div class="container-xxl py-6 px-0">
+    <div class="container-xxl py-6 px-0" id="engagements">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
@@ -213,8 +221,7 @@
                                     <h5 class="mb-3">Marketing Team Management</h5>
                                     <span class="TypeServices">If your marketing team lacks an experienced leader who
                                         can manage people, think strategically and drive results, I will fill the Head
-                                        of Marketing role—including goal and KPI setting, personnel management, team and
-                                        individual coaching, and performance reporting to the executive team.</span>
+                                        of marketing role on a transitional basis.</span>
                                     <p class="mt-3 lh-2">
                                         <span class="text-primary">Cost Structure:</span> Flat fee per week<br>
                                         <span class="text-primary">Billing:</span> Every 2 Weeks<br>
@@ -226,7 +233,7 @@
                         <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                             <div class="bg-light shadow-sm border border-light rounded h-100 p-4 p-lg-4">
                                 <div class="ms-sm-4">
-                                    <h5 class="mb-3">Temporarily Lead Product Marketing or Digital Marketing</h5>
+                                    <h5 class="mb-3">Lead Product/Digital Marketing</h5>
                                     <span class="TypeServices">If your marketing team needs a senior level person to
                                         dive into product marketing and/or digital marketing to improve results, I will
                                         deliver. I’ll work on monthly basis to fill in a gap.</span>
@@ -349,89 +356,68 @@
     <!-- Service -->
 
     <!-- Expertise -->
-    <div class="container-xxl py-6 pb-5" id="skill">
-        <div class="container">
-            <div class="row g-5">
-                <h1 class="display-5">My Philosophy</h1>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <img src="img/project-2.2.png" class="img-fluid mb-3" alt="">
-                    <p class="mb-4">I believe three things must be true to drive leads.</p>
-                    <h3 class="mb-4">My Skills</h3>
-                    <div class="row align-items-center">
-                        <div>
-                        <b>Prospects must:</b><br>
+    <div class="container" id="philosophy">
+        <div class="row align-items-center px-2">
+            <div class="row">
+                <div class="col-lg-12 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="#contact">Download CV</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3">
+                <div class="lc-block">
+                    <img alt="" class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                        src="img/JDlugozima.jpg">
+                </div><!-- /lc-block -->
+            </div><!-- /col -->
+            <div class="col-12 col-md-7 col-lg-9 p-5">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+                        <h1 class="display-5">My Philosophy</h1>
+                        <p>To drive revenue, three things must be true:
                         <ul>
                             <li>Trust your company, before they hand over their personal info for a free trial/demo</li>
                             <li>Be able to envision using the product/solution</li>
                             <li>3 Understand how the solution will benefit them</li>
                         </ul>
-                        I make all three happen.
-                        </div>    
+                        <span class="text-primary"><b>Let me help you get there!</b></span></p>
                     </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp " data-wow-delay="0.5s">
-                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
-                        <li class="nav-item w-50">
-                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
-                        </li>
-                        <li class="nav-item w-50">
-                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Languages</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row gy-5 gx-4">
-                                <h5>I love outperforming larger companies. I have a good network of contractors. And, I’ve worked for the same PE company twice.</h5>
-                                <div class="col-sm-6">
-                                    <h5>Bottomline</h5>
-                                    <hr class="text-primary my-2">
-                                    <h6 class="mb-0">(FinTech)</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>Nexus </h5>
-                                    <hr class="text-primary my-2">
-                                    <h6 class="mb-0">(FinTech)</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>Brightstar</h5>
-                                    <hr class="text-primary my-2">
-                                    <h6 class="mb-0">(Logistics)</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>T-Mobile</h5>
-                                    <hr class="text-primary my-2">
-                                    <h6 class="mb-0">(Telecom)</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-2" class="tab-pane fade show p-0">
-                            <div class="row gy-5 gx-4">
-                                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nulla quo excepturi consequuntur modi ex dolorum.</h5>
-                                <div class="col-sm-6">
-                                    <h5>Languaje 01</h5>
-                                    <hr class="text-primary my-2">
-                                    <h6 class="mb-0">Level: +1</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>Languaje 02</h5>
-                                    <hr class="text-primary my-2">
-                                    <h6 class="mb-0">Level: +1</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>Languaje 03</h5>
-                                    <hr class="text-primary my-2">
-                                    <h6 class="mb-0">Level: +1</h6>
-                                </div>
-                                <div class="col-sm-6">
-                                    <h5>Languaje 04</h5>
-                                    <hr class="text-primary my-2">
-                                    <h6 class="mb-0">Level: +1</h6>
-                                </div>
-                            </div>
-                        </div>
+                </div><!-- /lc-block -->
+                <div class="lc-block d-flex mb-5">
+                    <div class="pe-3">
+                        <h4 class="mb-2" editable="inline">Industries and Segments</h4>
+                        <ul>
+                            <li>Payments</li>
+                            <li>Software/BSS</li>
+                            <li>Data Analytics/Data catalog</li>
+                            <li>Supply chain/reverse logistics</li>
+                            <li>Insurance/handset insurance</li>
+                            <li>Insurance/warranties</li>
+                            <li>Telecom/mobile phones</li>
+                            <li>E-commerce sites</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
+                    <div class="border-start"></div>
+                    <div class="px-3">
+                        <h4 class="mb-2" editable="inline">Audiences</h4>
+                        <ul>
+                            <li>B2C</li>
+                            <li>B2B2C</li>
+                            <li>B2B</li>
+                        </ul>
+                    </div>
+                    <div class="border-start"></div>
+                    <div class="ps-3">
+                        <h4 class="mb-2" editable="inline">Roles</h4>
+                        <ul>
+                            <li>VP Product</li>
+                            <li>Marketing</li>
+                            <li>VP Digital</li>
+                            <li>Director, Customer</li>
+                            <li>Marketing</li>
+                        </ul>
+                    </div>
+                </div><!-- /lc-block -->
+            </div><!-- /col -->
         </div>
     </div>
     <!-- Expertise -->
@@ -445,12 +431,14 @@
                     <div class="testimonial-carousel">
                         <div class="testimonial-item text-center">
                             <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto" src="img/testimonial-1.jpg" alt="">
+                                <img class="img-fluid rounded-circle border border-secondary p-2 mx-auto"
+                                    src="img/testimonial-1.jpg" alt="">
                                 <div class="testimonial-icon">
                                     <i class="fa fa-quote-left text-primary"></i>
                                 </div>
                             </div>
-                            <p class="fs-5 fst-italic">For 8 years, I've worked with AC Designs.<br>He's far better, faster, and cost-effective than the in-house team</p>
+                            <p class="fs-5 fst-italic">For 8 years, I've worked with AC Designs.<br>He's far better,
+                                faster, and cost-effective than the in-house team</p>
                             <hr class="w-25 mx-auto">
                             <h5>Client Name</h5>
                             <span>Profession</span>
@@ -479,12 +467,15 @@
                     <h4 class="fw-bold" id="data"><a href="tel:1 678 708 9714">+1 678 708 9714</a></h4>
                     <hr class="w-100">
                     <p class="mb-2">Mail me:</p>
-                    <h4 class="fw-bold" id="data"><a href="mailto:jenniferdlugozima@gmail.com">jenniferdlugozima@gmail.com</a></h4>
+                    <h4 class="fw-bold" id="data"><a
+                            href="mailto:jenniferdlugozima@gmail.com">jenniferdlugozima@gmail.com</a></h4>
                     <hr class="w-100">
                     <p class="mb-2">Follow me:</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-primary me-2" href="https://api.whatsapp.com/send?phone=16787089714"><i class="fab fa-whatsapp"></i></a>
-                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/jenniferdlugozima/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-primary me-2"
+                            href="https://api.whatsapp.com/send?phone=16787089714"><i class="fab fa-whatsapp"></i></a>
+                        <a class="btn btn-square btn-primary me-2"
+                            href="https://www.linkedin.com/in/jenniferdlugozima/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -492,25 +483,30 @@
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" id="name" name="name" class="form-control" placeholder="Your name">
+                                    <input type="text" id="name" name="name" class="form-control"
+                                        placeholder="Your name">
                                     <label for="name" class="">Your name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" id="email" name="email" class="form-control" placeholder="Your email">
+                                    <input type="text" id="email" name="email" class="form-control"
+                                        placeholder="Your email">
                                     <label for="email" class="">Your email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                                    <input type="text" id="subject" name="subject" class="form-control"
+                                        placeholder="Subject">
                                     <label for="subject" class="">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Leave a message here" style="height: 100px"></textarea>
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea" placeholder="Leave a message here"
+                                        style="height: 100px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
@@ -523,8 +519,8 @@
             </div>
         </div>
     </div>
-    <!-- Contact End -->    
-        
+    <!-- Contact End -->
+
     <!-- Copyright Start -->
     <div class="container-fluid bg-dark text-white py-4">
         <div class="container">
@@ -535,7 +531,7 @@
             </div>
         </div>
     </div>
-    <!-- Copyright End -->        
+    <!-- Copyright End -->
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
