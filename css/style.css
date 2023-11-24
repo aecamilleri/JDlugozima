@@ -64,6 +64,18 @@
 
 #navbar h3{
 	font-size:larger;
+    line-height: 0.75em;
+}
+
+#navbar .navbar-brand p{
+	font-size:medium;
+    line-height: 0.75em;
+    margin-bottom: 0;
+}
+
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 /*** Button ***/
