@@ -46,9 +46,9 @@ body {
     padding-bottom: 6rem;
 }
 
-/* .fixed-top{
+.fixed-top{
     max-width: 100vw;
-} */
+}
 
 /*** Spinner ***/
 #spinner {
