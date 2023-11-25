@@ -67,7 +67,7 @@ body {
 /*** Navigation ***/
 #navbar{
 	min-height: 65px;
-	z-index: 999;
+	z-index: 1000;
 }
 
 #navbar h3{
@@ -750,6 +750,9 @@ body {
     #years10{
         margin-top: 3rem!important;
     }
+    .border-end{
+        border: none !important;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 768px){ 
@@ -777,6 +780,9 @@ body {
 		margin-top: -40%;
 
 	}
+    .border-end{
+        border: none !important;
+    }
  }
 
 @media (min-width: 1024px) and (max-width: 1440px)  { 
