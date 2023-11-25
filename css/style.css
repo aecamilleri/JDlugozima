@@ -753,6 +753,10 @@ body {
     .border-end{
         border: none !important;
     }
+    .justify-content-sm-center {
+        justify-content: center!important;
+        margin-bottom: 2em;
+    }
 }
 
 @media (min-width: 426px) and (max-width: 768px){ 
@@ -778,12 +782,15 @@ body {
 	.text--big {
 		font-size: 3.5em;
 		margin-top: -40%;
-
 	}
     .border-end{
         border: none !important;
     }
- }
+    .justify-content-end {
+        justify-content: flex-end!important;
+    }
+}
+
 
 @media (min-width: 1024px) and (max-width: 1440px)  { 
     .flex__item {
@@ -801,6 +808,9 @@ body {
         top: 20%;
         right: 7.5%;
         width: 50vh;
+    }
+    .justify-content-end {
+        justify-content: flex-end!important;
     }
  }
 
